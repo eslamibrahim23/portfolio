@@ -1,0 +1,310 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protofolio</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./jq.js">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="./proj.css">
+
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="app">
+            <nav class="navbar navbar-expand-md navbar-light " id="navbar">
+                <!-- navbar-expand-md ==> to display it flex  -->
+                <div class="container"> <!-- container ==> to padding all componontet display flex  -->
+                    <a href=""><img src="./image/my pic.jpeg" alt="Logo"
+                            style="height: 70px;width:70px;border-radius: 70px;"> </a>
+                    <button class="navbar-toggler" id="btn"><span class="navbar-toggler-icon"></span></button>
+                    <!-- navbar-toggler ==> to hide bar icon  -->
+
+                    <div class="navbar-collapse collapse" id="navbar-collapse">
+                        <!-- navbar-collapse ==> to display none in small screen  and convert from row to col -->
+                        <!-- collapse ==> to display block with (.show)  class   -->
+
+                        <div class="ms-auto navbar-nav">
+                            <!-- navbar-nav ==> to display nav: flex row   -->
+                            <!-- ms-auto ==> to padding left  ==> to right    -->
+                            <a href="#banner" class="nav-link">Home</a>
+                            <a href="#skill" class="nav-link">Skills</a>
+                            <a href="#poj" class="nav-link">Projects</a>
+                        </div>
+
+                        <span class="navbar-text"> <!-- navbar-text ==> to show icon in black color   -->
+                            <div class="social-icon">
+                                <a href="https://wa.me/+0201024694658" target="_blank">
+                                    <i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="https://www.linkedin.com/in/eslam-ibrahem-498522207/" target="_blank"><i
+                                        class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="https://www.facebook.com/eslam.ibrahim.3998?mibextid=ZbWKwL" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/eslamibrahim3484/?igsh=MXJ2bGN6ZHJld2d5NA%3D%3D"
+                                    target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://github.com/eslamibrahim23" target="_blank"><i
+                                        class="fa-brands fa-github"></i></a>
+                                <a href="mailto:elsam.ibrahem111@gmail.com" target="_blank"><i
+                                        class="fa-solid fa-envelope"></i></a>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+            <section class="banner" id="banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8 col-md-6 col-12 ">
+                            <div class="my-info"><span class="welocome">Welcome to my Portfolio</span>
+                                <h1>Hello! I'm Eslam :-</h1>
+                                <h5> Full Stack { MEARN } ,Frontend Developer { React }
+                                    ,Backend Developer { Node JS }</h5><br>
+                                <p>My full name is Eslam Ibrahim Mohammed Abdou.</p>
+                                <p>My Address is : Cairo.</p>
+                                <p>I graduated from the Information Technology Institute( ITI ).</p>
+                                <a class="btn btn-radius download text-success"
+                                    href="./image/Eslam Ibrahim Mohammed Abdou (3).pdf" title="my cv" download>Download
+                                    CV</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12 ">
+                            <div class=""><img id="robot" src="./image/header-img.400baa4260daac98f2b2b1ccf08761c2.svg"
+                                    alt="Header Img"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="skill" id="skill">
+                <div class="container">
+                    <div class="skill-card">
+                        <p class="text-center p-1 fs-1">Skills</p>
+                        <div class="container">
+                            <p class="text-center text-skill  ">As a web developer specializing in front-end
+                                technologies using the React JS, with a
+                                background in client interaction gained from my work in the credit department at the
+                                company
+                                of Tasheel, I bring a combination of a methodical approach to problem-solving, precision
+                                in
+                                front-end development, and a commitment to pushing the boundaries of what is possible.
+                                My
+                                skills in front-end programming languages, coupled with proficiency in back-end
+                                technologies, reflect my enduring passion for this dynamic field and a constant desire
+                                to
+                                learn and improve. I thrive under pressure and am dedicated to delivering high-quality
+                                user
+                                experiences through effective front-end development.</p>
+                        </div>
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="container ">
+                                        <div class="row my-card">
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-12  myskill-card">
+                                                <img src="./image/meter1.c61a2fc3fdd79d551b751c6c0f890ab6.svg"
+                                                    class="d-block w-100" alt="...">
+                                                <p>Html</p>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-12 myskill-card">
+                                                <img src="./image/meter1.c61a2fc3fdd79d551b751c6c0f890ab6.svg"
+                                                    class="d-block w-100" alt="...">
+                                                <p>CSS</p>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4  col-sm-4 col-12 myskill-card">
+                                                <img src="./image/meter1.c61a2fc3fdd79d551b751c6c0f890ab6.svg"
+                                                    class="d-block w-100" alt="...">
+                                                <p>JavaScript</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class=" row my-card">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-12  myskill-card">
+                                            <img src="./image/meter1.c61a2fc3fdd79d551b751c6c0f890ab6.svg"
+                                                class="d-block w-100" alt="...">
+                                            <h5>Jquery</h5>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-12  myskill-card">
+                                            <img src="./image/meter2.a0050a378a929877ac8144049ee0a1bf.svg"
+                                                class="d-block w-100" alt="...">
+                                            <h5>O.S</h5>
+
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-12  myskill-card">
+                                            <img src="./image/meter2.a0050a378a929877ac8144049ee0a1bf.svg"
+                                                class="d-block w-100" alt="...">
+                                            <h5>Bootstrap</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="projcts " id="poj">
+                <p class="fs-1">Projcts</p>
+                <P>A set of projects reflects my skills in this field. You can visit them by clicking on the project
+                    cards.</P>
+                <div class="btn-group " role="group" aria-label="Basic radio toggle button group">
+                    <input type="radio" class="btn-check btns" name="btnradio" id="btnradio1" autocomplete="off"
+                        checked>
+                    <label class="btn btn-outline-primary" for="btnradio1">Tap 1</label>
+
+                    <input type="radio" class="btn-check btns" name="btnradio" id="btnradio2" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btnradio2">Tap 2</label>
+
+                    <input type="radio" class="btn-check btns" name="btnradio" id="btnradio3" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btnradio3">Tap 3</label>
+                </div>
+                <div class="row g-3 myproj-pics">
+                    <a href="https://eslamibrahim23.github.io/pixel/"
+                        class="col-lg-4 col-md-4 col-sm-6 position-relative a-pics">
+                        <img src="./image/proj-section/1.webp" alt="">
+                        <div class="bg-danger position-absolute proj-text ">
+                            <h4 class="text-light p-5">PIXEL ARTMARKER</h4>
+                            <span class="text-light ">Using: HTML,CSS, JavaScript</span>
+                        </div>
+                    </a>
+                    <a href="https://eslamibrahim23.github.io/circles-colors/"
+                        class="col-lg-4 col-md-4 col-sm-6  position-relative a-pics">
+                        <img src="./image/proj-section/2.png" alt="">
+                        <div class="bg-danger position-absolute proj-text ">
+                            <h4 class="text-light p-5">circles-colors</h4>
+                            <span class="text-light ">Using: HTML,CSS, JavaScript</span>
+                        </div>
+                    </a>
+                    <a href="https://eslamibrahim23.github.io/filter/"
+                        class="col-lg-4 col-md-4 col-sm-6 a-pics  position-relative">
+                        <img src="./image/proj-section/3.png" alt="">
+                        <div class="bg-danger position-absolute proj-text ">
+                            <h4 class="text-light p-5">Filter Effect </h4>
+                            <span class="text-light ">Using: HTML,CSS, JavaScript</span>
+                        </div>
+                    </a>
+                    <a href="https://eslamibrahim23.github.io/ball/"
+                        class="col-lg-4 col-md-4 col-sm-6 a-pics  position-relative">
+                        <img src="./image/proj-section/4.jpeg" alt="">
+                        <div class="bg-danger position-absolute proj-text ">
+                            <h4 class="text-light p-5">Playing Football (watch only)</h4>
+                            <span class="text-light ">Using: HTML,CSS</span>
+                        </div>
+                    </a>
+                    <a href="https://eslamibrahim23.github.io/imgs-bg/"
+                        class="col-lg-4 col-md-4 col-sm-6 a-pics  position-relative">
+                        <img src="./image/proj-section/5.webp" alt="">
+                        <div class="bg-danger position-absolute proj-text ">
+                            <h4 class="text-light p-5">BackGrround IMAGES</h4>
+                            <span class="text-light ">Using: HTML,CSS</span>
+                        </div>
+                    </a>
+                    <a href="https://eslamibrahim23.github.io/marbel/"
+                        class="col-lg-4 col-md-4 col-sm-6 a-pics  position-relative">
+                        <img src="./image/proj-section/1.webp" alt="">
+                        <div class="bg-danger position-absolute proj-text ">
+                            <h4 class="text-light p-5">Marbel</h4>
+                            <span class="text-light ">Using: HTML,CSS, JavaScript</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="myproj-text" style="display: none;">Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Quia
+                    voluptatibus ab nesciunt officia iste delectus dolore consectetur tempora. Voluptates, saepe.</div>
+
+            </section>
+            <section class="myform">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-4">
+                            <img src="./image/contact-img.62aa99e0f3b968b5d1ce9eb047f34fc7.svg" alt="">
+                        </div>
+                        <div class="col-lg-7 col-md-8">
+                            <p class="fs-1">Get In Touch</p>
+                            <form class="row g-3">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <input type="text" placeholder="First Name" value="">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <input type="text" placeholder="Last Name" value="">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <input type="email" placeholder="Email" value=""
+                                        pattern="/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/]">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <input type="text" placeholder="Phone Number" value="" pattern="\d+">
+                                </div>
+                                <textarea class="col-lg-12" rows="6" placeholder="Message"></textarea>
+                                <button class="col-lg-4 col-sm-4 "><span>Send</span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="containerr">
+                    <div class="keep-Contact">
+                        <div class="conent-contact row">
+                            <p class="col-xl-5 col-lg-5 col-md-6 col-sm-12 ">Subscribe to our Newsletter
+                                & Never miss latest updates</p>
+                            <form action="" class="col-xl-7 col-lg-7 col-md-6  col-sm-12">
+                                <div class="newform">
+                                    <input type="email" placeholder="Email" value=""
+                                        pattern="/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/]" class="fs-20 col-lg-7">
+                                    <button>Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row end-footer">
+                        <div class="col-8"><img src="./image/my pic.jpeg" alt=""
+                                style="height: 60px; width: 60px;border-radius: 60px;"></div>
+                        <div class="social-icon col-4">
+                            <a href="https://wa.me/+0201024694658" target="_blank">
+                                <i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://www.linkedin.com/in/eslam-ibrahem-498522207/" target="_blank"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.facebook.com/eslam.ibrahim.3998?mibextid=ZbWKwL" target="_blank"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/eslamibrahim3484/?igsh=MXJ2bGN6ZHJld2d5NA%3D%3D"
+                                target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://github.com/eslamibrahim23" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a href="mailto:elsam.ibrahem111@gmail.com" target="_blank"><i
+                                    class="fa-solid fa-envelope"></i></a>
+                        </div>
+                        <p class="col-12">CopyRight 2024. All Rights Reserved</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+    </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./proj.js"></script>
+</body>
+
+</html>
