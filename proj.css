@@ -102,6 +102,94 @@ img {
     }
 }
 
+.my-info h1{
+   color: #2708642f;
+    text-transform: uppercase;
+    position: relative;
+
+}
+.my-info h1::before{
+    font-family:  sans-serif;
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: #dddce4;
+    border-right: 5px solid #ba07b1;
+    overflow: hidden;
+    animation: animate 8s linear both;
+}
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    70%{
+        width:80% ;
+    }
+    100%{
+        width:70% ;
+    }
+    
+}
+
+
+
+.my-info h5{
+    position: relative;
+    color: #2708642f;
+}
+.my-info h5::before{
+position: absolute;
+left: 0;
+top: 0;
+    content: attr(data-text);
+    color: #e8e7ec;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    border-right: 5px solid #ba07b1;
+    animation: 10s linear 8s both  animateh5;
+}
+
+@keyframes animateh5{
+    0%{
+        width: 0;
+    }
+    50%{
+        width:50% ;
+    }
+    100%{
+        width:100% ;
+    }
+}
+@media (max-width: 450px){
+    .my-info h1::before{
+       font-size: 8vw;
+    }
+    .my-info h5::before{
+       font-size: 5vw;
+       text-wrap: wrap;
+    }
+    @keyframes animate{
+        0%{
+            width: 0;
+        }
+        100%{
+            width:100vw ;
+        }
+    }
+    @keyframes animateh5{
+        0%{
+            width: 0;
+        }
+        100%{
+            width:100vw ;
+        }
+    }
+}
+
 .skill {
     height: fit-content;
     background: linear-gradient(90deg, rgb(13, 13, 13), rgb(6, 21, 69), rgb(44, 8, 8));
@@ -110,6 +198,16 @@ img {
     /* top right bottom left */
     padding: 0;
     width: 100%;
+}
+
+a{
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px;
+}
+nav a:hover,footer a:hover{
+    /* padding: 100px; */
+    background: linear-gradient(180deg, rgb(158, 19, 19), rgb(207, 7, 130), rgb(44, 8, 8));
 }
 
 .skill-card {
